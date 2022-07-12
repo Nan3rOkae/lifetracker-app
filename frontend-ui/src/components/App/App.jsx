@@ -11,15 +11,6 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-
-          <Route path="/activity" element={<ActivityPage />} />
-          <Route path="/exercise/*" element={<ExercisePage />} />
-          <Route path="/nutrition/*" element={<NutritionPage />} />
-          <Route path="/sleep/*" element={<SleepPage />} />
-
-          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
