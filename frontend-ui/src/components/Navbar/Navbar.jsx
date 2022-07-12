@@ -14,15 +14,42 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <ul>
+        <ul className="NavContainer" style={{ listStyle: "none" }}>
+          <li style={{ marginRight: "20px" }}>
+            <Link
+              //style={{ textDecoration: "none", color: "white" }}
+              to="/exercise"
+            >
+              <a type="exercise button">Exercise</a>
+            </Link>
+          </li>
           <li>
-            <Link to="/login">
-              <button className="btn ghost">Login</button>
+            <Link
+              to="/nutrition"
+              // style={{ textDecoration: "none", color: "white" }}
+            >
+              <a type="nutrition button">Nutrition</a>
+            </Link>
+          </li>
+          <li style={{ marginRight: "20px" }}>
+            <Link
+              to="/sleep"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <a type="sleep button">Sleep</a>
+            </Link>
+          </li>
+          <li style={{ marginRight: "20px" }}>
+            <Link
+              to="/login"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <a className="btn ghost">Login</a>
             </Link>
           </li>
           <li>
             <Link to="/register">
-              <button className="btn primary">Register</button>
+              <button className="btn primary">Sign Up</button>
             </Link>
           </li>
         </ul>

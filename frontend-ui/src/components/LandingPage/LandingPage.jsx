@@ -11,6 +11,24 @@ export default function LandingPage() {
           alt="hero img"
         />
       </div>
+      <div className="titles">
+        <div className="title">
+          <img></img>
+          <p>Fitness</p>
+        </div>
+        <div className="title">
+          <img></img>
+          <p>Food</p>
+        </div>
+        <div className="title">
+          <img></img>
+          <p>Rest</p>
+        </div>
+        <div className="title">
+          <img></img>
+          <p>Planner</p>
+        </div>
+      </div>
 
       <div className="tiles"></div>
     </div>
