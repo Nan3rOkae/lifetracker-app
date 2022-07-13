@@ -15,7 +15,7 @@ export default function Navbar() {
           </Link>
         </div>
         <ul className="NavContainer" style={{ listStyle: "none" }}>
-          <li style={{ marginRight: "20px" }}>
+          <li>
             <Link
               //style={{ textDecoration: "none", color: "white" }}
               to="/exercise"
@@ -31,18 +31,18 @@ export default function Navbar() {
               <a type="nutrition button">Nutrition</a>
             </Link>
           </li>
-          <li style={{ marginRight: "20px" }}>
+          <li>
             <Link
               to="/sleep"
-              style={{ textDecoration: "none", color: "white" }}
+              //style={{ textDecoration: "none", color: "white" }}
             >
               <a type="sleep button">Sleep</a>
             </Link>
           </li>
-          <li style={{ marginRight: "20px" }}>
+          <li>
             <Link
               to="/login"
-              style={{ textDecoration: "none", color: "white" }}
+              //style={{ textDecoration: "none", color: "white" }}
             >
               <a className="btn ghost">Login</a>
             </Link>
