@@ -49,7 +49,9 @@ export default function Navbar() {
           </li>
           <li>
             <Link to="/register">
-              <button className="btn primary">Sign Up</button>
+              <a>
+              <button className="SignUp">Sign Up</button>
+              </a>
             </Link>
           </li>
         </ul>
