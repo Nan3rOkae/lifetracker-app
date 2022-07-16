@@ -2,7 +2,7 @@
 
 # Week 3 Assignment: Life Tracker
 
-Submitted by: **NAME**
+Submitted by: **Nana Kofi Okae**
 
 Deployed Application: [Lifetracker Deployed Site](ADD_LINK_HERE)
 
@@ -42,21 +42,22 @@ Implement any of the following features to improve the application:
 
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
-`ADD_EMBEDDED_CODE_HERE`
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/89530363/179327622-052788fd-0c20-49ce-a324-f18355695b65.gif)
+
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-[Add your response here]
+They did help alot and I I learnt so much from it all. I really do dislike how the windows system has a lot of issues with alot of commands and basic functionalty which as always set me back 
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-[Add your response here]
+I would work on my bugs and make sure that the rest of the core features/stretch features get completed
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-[Add your response here]
+My routes worked like a charm, but during the demos my login and register were not working due to a windows issue, but overall, my demo could have gone better than expected
 
 ### Open-source libraries used
 
@@ -66,4 +67,4 @@ Implement any of the following features to improve the application:
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
 
-[Add your response here]
+Nickolas, Beck, Moe, Lucas, Enrique, Paul 
