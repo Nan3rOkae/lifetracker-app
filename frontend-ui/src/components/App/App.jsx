@@ -6,8 +6,7 @@ import LandingPage from "../LandingPage/LandingPage";
 import Navbar from "../Navbar/Navbar";
 import Login from "../Login/Login";
 import Register from "../Register/Register";
-
-
+//import ActivityPage from "../ActivityPage/Activity";
 
 import { AuthContextProvider } from "../contexts/auth";
 
@@ -22,6 +21,7 @@ export default function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            {/* <Route path="/activity" element={<ActivityPage />} /> */}
           </Routes>
         </BrowserRouter>
       </div>

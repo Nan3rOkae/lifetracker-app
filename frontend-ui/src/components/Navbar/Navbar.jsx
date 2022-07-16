@@ -18,6 +18,14 @@ export default function Navbar() {
           <li>
             <Link
               //style={{ textDecoration: "none", color: "white" }}
+              to="/activity"
+            >
+              <a type="activity button">Activity</a>
+            </Link>
+          </li>
+          <li>
+            <Link
+              //style={{ textDecoration: "none", color: "white" }}
               to="/exercise"
             >
               <a type="exercise button">Exercise</a>
@@ -50,7 +58,7 @@ export default function Navbar() {
           <li>
             <Link to="/register">
               <a>
-              <button className="SignUp">Sign Up</button>
+                <button className="SignUp">Sign Up</button>
               </a>
             </Link>
           </li>

@@ -43,7 +43,6 @@ export default function Register() {
 
           <div className="split-input-field">
             <div className="input-field">
-            
               <input
                 type="text"
                 name="firstName"
@@ -57,7 +56,6 @@ export default function Register() {
             </div>
 
             <div className="input-field">
-          
               <input
                 type="text"
                 name="lastName"
